@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Edie HomePage</title>
+  </head>
+  <body>
+    <nav
+      id="nav"
+      class="
+        navbar
+        deploy-flex
+        justify-content-between">
+      <a href="#" class="nav-logo">Edie</a>   
+      <!-- Edie en negrita -->
+      <div class="grid-menu d-grid">
+        
+        </button>
+        <ul class="nav-menu deploy-flex align-items-center">
+          <li class="nav-item">
+            <a href="#home" class="nav-link white-text">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link white-text">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-link white-text">Our Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#clients" class="nav-link white-text">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link white-text">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="button-toggle white-text">
+        <span class="material-icons btn-toggle"> menu </span>
+      </button>
+    </nav>
+
+    <header class="header margen2">
+      <span class="blue-text fw-500">Unhappy with your website?</span>
+      <h1>We create beautiful and fast web services</h1>
+     
+        <img src="./images/heroImage.jpg" alt="a group of men analyzing ideas" />
+    </header>
+
+    <section class="story margen2 deploy-flex flex-column justify-content-center">
+      <h2 class="fw-500">Story, emotion and purpose</h2>
+      <p color="#4F4F4F">
+        We help transform your ideas into real world 
+        applications that will outperform 
+        your toughest competition and help you 
+        achieve your strategic goals in short 
+        period of time.
+      </p>
+
+      <div class="input-email deploy-flex">
+        <label for="email" color="#F2F2F2">
+          Want us to contact you?
+          <div class="input-email-box deploy-flex align-items-center large">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            />
+            <a href="#">Join</a>
+          </div>
+        </label>
+      </div>
+    </section>
+ 
+    <section id="services" class="services margen1">
+      <h2 class="super-center align-content-center">We offer high 
+        demand services</h2>
+      <div class="group-cards deploy-flex justify-content-center">
+        <div class="card deploy-flex flex-column align-items-start">
+          <span class="material-icons services-icon super-center bg-blue">
+            edit
+          </span>
+          <h3>UI/UX Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <a href="#" class="button">Get Started</a>
+        </div>
+        <div class="card deploy-flex flex-column align-items-start">
+          <span class="material-icons services-icon super-center bg-green">
+            code
+          </span>
+          <h3>Front End</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <a href="#" class="button">Get Started</a>
+        </div>
+        <div class="card deploy-flex flex-column align-items-start">
+          <span class="material-icons services-icon super-center bg-red">
+            storage
+          </span>
+          <h3>Back End</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <a href="#" class="button">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="design margen1">
+      <h2>Good design means good business</h2>
+      <div class="group-designs d-grid">
+        <div class="card-design div1">
+            <img src="./images/smarthome.jpg" alt="A TV Screen displaying weather forecast, calendar, etc" />
+          
+          <small>Full Stack Application</small>
+          <p class="fw-500">Smart home dashboard</p>
+        </div>
+        <div class="card-design div2">
+            <img src="./images/onboard.png" alt="Bussiness cards with the information of many projects on an individual basis" />
+          
+          <small>UX-UI design</small>
+          <p class="fw-500">Onboard application</p>
+        </div>
+        <div class="card-design div3">
+            <img src="./images/booking.png" alt="Business cards showing calendars, pendings, etc" />
+          
+          <small>Mobile application</small>
+          <p class="fw-500">Booking system</p>
+        </div>
+        <div class="card-design div4">
+            <img src="./images/juice-product.png" alt="Commercial promoting a new trademark of green juice" />
+          
+          <small>Front End application</small>
+          <p class="fw-500">Juice product homepage</p>
+        </div>
+        <a href="#" class="button-flat div5 deploy-flex align-items-center fw-500"
+          >see more <span class="material-icons"> arrow_right_alt </span></a
+        >
+      </div>
+    </section>
+
+    <section class="team deploy-flex margen1">
+      <div class="team-description">
+        <small class="fw-500">Meet the team</small>
+        <h2>We are chilled and a laidback team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="team-photos d-grid align-items-center">
+        <img src="./images/person3.png" class="img-person3" alt="Woman face" />
+        <img src="./images/person1.png" class="img-person1" alt="Man face" />
+        <img src="./images/person2.png" class="img-person2" alt="Man face" />
+      </div>
+    </section>
+
+    <section id="clients" class="testimonials margen1">
+      <h2 class="fw-500">
+        “Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”
+      </h2>
+      <div class="client deploy-flex align-items-center">
+        <img src="./images/person4.png" width="82" height="82" alt="Avatar" />
+        <div class="client-info deploy-flex flex-column">
+          <p class="client-name fw-500">Carlos Tran</p>
+          <p class="client-job-title fw-500">The Decorate Gatsby</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="footer-social deploy-flex">
+        <nav>
+          <ul class="deploy-flex align-items-left">
+            <li class="fw-400"><a href="#home">Home</a></li>
+            <li class="fw-400"><a href="#services">Services</a></li>
+            <li class="fw-400"><a href="#work">Our Works</a></li>
+            <li class="fw-400"><a href="#clients">Clients</a></li>
+            <li class="fw-400"><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="logos">
+          <span style="color: #F2F2F2;">Edie</span>
+          <div class="social-media">
+            <img
+              src="./images/instagram.svg"
+              width="24"
+              height="24"
+              alt="Instagram icon"
+            />
+            <img
+              src="images/linkedin.svg"
+              width="24"
+              height="24"
+              alt="LinkedIn icon"
+            />
+            <img
+              src="images/twitter.svg"
+              width="24"
+              height="24"
+              alt="Twitter icon"
+            />
+          </div>
+        </div>
+        <div class="input-email deploy-flex">
+          <label for="email-footer" color="#F2F2F2">
+            Want us to contact you?
+            <div class="input-email-box deploy-flex align-items-center large">
+              <input
+                type="email"
+                name="email"
+                id="email-footer"
+                required
+                placeholder="Email"
+              />
+              <a href="#">Join</a>
+            </div>
+          </label>
+        </div>
+      </div>
+  </body>
+</html>
